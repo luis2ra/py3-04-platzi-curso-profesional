@@ -4,7 +4,8 @@ import datetime
 
 my_datetime = datetime.datetime.now()
 
-print(f'Now: {my_datetime}')
+print(f'Now (local): {my_datetime}')
+print(f'Now (UTC): {datetime.datetime.utcnow()}')
 
 my_day = datetime.date.today()
 
