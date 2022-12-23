@@ -32,5 +32,5 @@ my_tuple = ("Hola", "Hola", "Hola", 1)
 my_tuple_to_set = set(my_tuple)
 print("my_tuple_to_set = ", set(my_tuple))
 
-my_set4 = {[1, 2, 3], 4}  # Esto da un error, contiene una lista
 # ERROR!!!
+# my_set4 = {[1, 2, 3], 4}  # Esto da un error, contiene una lista (y por definicion, es mutable)

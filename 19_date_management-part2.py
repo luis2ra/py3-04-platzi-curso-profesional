@@ -27,5 +27,8 @@ print("delta in seconds: ", delta_sec)
 
 # si no se cumple con el formato lanzara un ValueError
 date_time = datetime.datetime.strptime('2022-10-09 00:40:00' , '%Y-%m-%d %H:%M:%S')
+date_time_other = datetime.datetime.strptime('2022-12-12', "%Y-%m-%d")
 result = date_time + delta_min
-print(result)
+print("time initial: ", date_time)
+print("time modified: ", result)
+print("other test: ", date_time_other)

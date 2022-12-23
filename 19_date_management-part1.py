@@ -3,6 +3,7 @@ import datetime
 
 
 my_datetime = datetime.datetime.now()
+print(type(my_datetime))
 
 print(f'Now (local): {my_datetime}')
 print(f'Now (UTC): {datetime.datetime.utcnow()}')
